@@ -1,8 +1,0 @@
-Compilation started at 10/30/2023, 8:26:03 AM
-Compilation finished at 10/30/2023, 8:26:03 AM
-Compilation started at 10/30/2023, 8:26:28 AM
-c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set02\problem01.c: In function 'main':
-c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set02\problem01.c:12:1: error: expected ';' before 'return'
- return 0;
- ^~~~~~
-Compilation finished at 10/30/2023, 8:26:28 AM
