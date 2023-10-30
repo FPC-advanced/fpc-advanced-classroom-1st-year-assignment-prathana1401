@@ -1,0 +1,29 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20231018122112
+Username: DESKTOP-HBKLBJ9\Prathana Patel
+RunAs User: DESKTOP-HBKLBJ9\Prathana Patel
+Configuration Name: 
+Machine: DESKTOP-HBKLBJ9 (Microsoft Windows NT 10.0.22621.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noexit -command try { . "c:\Users\Prathana Patel\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\browser\media\shellIntegration.ps1" } catch {}
+Process ID: 7100
+PSVersion: 5.1.22621.1778
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.22621.1778
+BuildVersion: 10.0.22621.1778
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set01\problem02_session.txt
+PS C:\FPC_Assignments> gcc -g "c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set01\problem02.c" -o "c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set01\problem02.exe" 2>&1
+
+PS C:\FPC_Assignments> "c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set01\problem02.exe"
+c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set01\problem02.exe
+PS C:\FPC_Assignments> git add .
+
+PS C:\FPC_Assignments> git commit -m "committed 10/18/2023, 12:21:49 PM"
+
+PS C:\FPC_Assignments> git push
+
