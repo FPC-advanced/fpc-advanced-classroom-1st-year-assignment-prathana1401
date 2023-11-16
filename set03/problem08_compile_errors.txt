@@ -1,0 +1,27 @@
+Compilation started at 11/16/2023, 8:08:46 PM
+c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set03\problem08.c: In function 'find_distance':
+c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set03\problem08.c:40:12: warning: implicit declaration of function 'sqrt' [-Wimplicit-function-declaration]
+     return sqrt(pow(b.x - a.x, 2) + pow(b.y - a.y, 2));
+            ^~~~
+c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set03\problem08.c:40:12: warning: incompatible implicit declaration of built-in function 'sqrt'
+c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set03\problem08.c:40:12: note: include '<math.h>' or provide a declaration of 'sqrt'
+c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set03\problem08.c:40:17: warning: implicit declaration of function 'pow' [-Wimplicit-function-declaration]
+     return sqrt(pow(b.x - a.x, 2) + pow(b.y - a.y, 2));
+                 ^~~
+c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set03\problem08.c:40:17: warning: incompatible implicit declaration of built-in function 'pow'
+c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set03\problem08.c:40:17: note: include '<math.h>' or provide a declaration of 'pow'
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmingw32.a(main.o):(.text.startup+0xa0): undefined reference to `WinMain@16'
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 11/16/2023, 8:08:46 PM
+Compilation started at 11/16/2023, 8:09:04 PM
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmingw32.a(main.o):(.text.startup+0xa0): undefined reference to `WinMain@16'
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 11/16/2023, 8:09:05 PM
+Compilation started at 11/16/2023, 8:09:22 PM
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmingw32.a(main.o):(.text.startup+0xa0): undefined reference to `WinMain@16'
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 11/16/2023, 8:09:23 PM
+Compilation started at 11/16/2023, 8:13:00 PM
+Compilation finished at 11/16/2023, 8:13:00 PM
+Compilation started at 11/16/2023, 9:59:33 PM
+Compilation finished at 11/16/2023, 9:59:33 PM

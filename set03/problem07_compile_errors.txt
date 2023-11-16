@@ -1,0 +1,46 @@
+Compilation started at 11/16/2023, 7:52:52 PM
+c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set03\problem07.c: In function 'input_point':
+c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set03\problem07.c:23:5: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+     printf("Enter x coordinate: ");
+     ^~~~~~
+c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set03\problem07.c:23:5: warning: incompatible implicit declaration of built-in function 'printf'
+c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set03\problem07.c:23:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set03\problem07.c:24:5: warning: implicit declaration of function 'scanf' [-Wimplicit-function-declaration]
+     scanf("%f", &p.x);
+     ^~~~~
+c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set03\problem07.c:24:5: warning: incompatible implicit declaration of built-in function 'scanf'
+c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set03\problem07.c:24:5: note: include '<stdio.h>' or provide a declaration of 'scanf'
+c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set03\problem07.c: In function 'input_line':
+c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set03\problem07.c:32:5: warning: incompatible implicit declaration of built-in function 'printf'
+     printf("Enter endpoint 1:\n");
+     ^~~~~~
+c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set03\problem07.c:32:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set03\problem07.c: In function 'find_length':
+c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set03\problem07.c:40:19: warning: implicit declaration of function 'sqrt' [-Wimplicit-function-declaration]
+     l->distance = sqrt(pow(l->p2.x - l->p1.x, 2) + pow(l->p2.y - l->p1.y, 2));
+                   ^~~~
+c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set03\problem07.c:40:19: warning: incompatible implicit declaration of built-in function 'sqrt'
+c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set03\problem07.c:40:19: note: include '<math.h>' or provide a declaration of 'sqrt'
+c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set03\problem07.c:40:24: warning: implicit declaration of function 'pow' [-Wimplicit-function-declaration]
+     l->distance = sqrt(pow(l->p2.x - l->p1.x, 2) + pow(l->p2.y - l->p1.y, 2));
+                        ^~~
+c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set03\problem07.c:40:24: warning: incompatible implicit declaration of built-in function 'pow'
+c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set03\problem07.c:40:24: note: include '<math.h>' or provide a declaration of 'pow'
+c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set03\problem07.c: In function 'output':
+c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set03\problem07.c:44:5: warning: incompatible implicit declaration of built-in function 'printf'
+     printf("Length of the line segment between (%.2f, %.2f) and (%.2f, %.2f) is %.2f\n",
+     ^~~~~~
+c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set03\problem07.c:44:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+Compilation finished at 11/16/2023, 7:52:52 PM
+Compilation started at 11/16/2023, 8:03:20 PM
+Compilation finished at 11/16/2023, 8:03:21 PM
+Compilation started at 11/16/2023, 8:04:58 PM
+Compilation finished at 11/16/2023, 8:04:59 PM
+Compilation started at 11/16/2023, 8:05:11 PM
+Compilation finished at 11/16/2023, 8:05:11 PM
+Compilation started at 11/16/2023, 9:39:24 PM
+Compilation finished at 11/16/2023, 9:39:25 PM
+Compilation started at 11/16/2023, 9:44:01 PM
+Compilation finished at 11/16/2023, 9:44:01 PM
+Compilation started at 11/16/2023, 9:48:19 PM
+Compilation finished at 11/16/2023, 9:48:20 PM
