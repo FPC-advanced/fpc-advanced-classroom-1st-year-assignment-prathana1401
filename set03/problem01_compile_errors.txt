@@ -1,0 +1,38 @@
+Compilation started at 10/31/2023, 11:14:58 AM
+c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set03\problem01.c: In function 'main':
+c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set03\problem01.c:12:1: error: too few arguments to function 'output'
+ output(distance);
+ ^~~~~~
+c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set03\problem01.c:5:6: note: declared here
+ void output(float x1, float y1, float x2, float y2, float distance);
+      ^~~~~~
+c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set03\problem01.c: In function 'find_distance':
+c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set03\problem01.c:24:12: warning: implicit declaration of function 'sqrt' [-Wimplicit-function-declaration]
+     return sqrt((x1-y1)*(x1-y1)-(x2-y2)*(x2-y2));
+            ^~~~
+c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set03\problem01.c:24:12: warning: incompatible implicit declaration of built-in function 'sqrt'
+c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set03\problem01.c:24:12: note: include '<math.h>' or provide a declaration of 'sqrt'
+Compilation finished at 10/31/2023, 11:14:58 AM
+Compilation started at 10/31/2023, 11:23:16 AM
+c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set03\problem01.c: In function 'main':
+c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set03\problem01.c:12:1: error: too few arguments to function 'output'
+ output(distance);
+ ^~~~~~
+c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set03\problem01.c:5:6: note: declared here
+ void output(float x1, float y1, float x2, float y2, float distance);
+      ^~~~~~
+c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set03\problem01.c: In function 'find_distance':
+c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set03\problem01.c:24:13: warning: implicit declaration of function 'sqrt' [-Wimplicit-function-declaration]
+    distance=sqrt((x2-x1)*(x2-x1)-(y1-y2)*(y1-y2));
+             ^~~~
+c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set03\problem01.c:24:13: warning: incompatible implicit declaration of built-in function 'sqrt'
+c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set03\problem01.c:24:13: note: include '<math.h>' or provide a declaration of 'sqrt'
+Compilation finished at 10/31/2023, 11:23:16 AM
+Compilation started at 10/31/2023, 11:34:30 AM
+c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set03\problem01.c: In function 'find_distance':
+c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set03\problem01.c:24:10: warning: implicit declaration of function 'sqrt' [-Wimplicit-function-declaration]
+   return sqrt((x2-x1)*(x2-x1)+(y2-y1)*(y2-y1));
+          ^~~~
+c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set03\problem01.c:24:10: warning: incompatible implicit declaration of built-in function 'sqrt'
+c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set03\problem01.c:24:10: note: include '<math.h>' or provide a declaration of 'sqrt'
+Compilation finished at 10/31/2023, 11:34:30 AM

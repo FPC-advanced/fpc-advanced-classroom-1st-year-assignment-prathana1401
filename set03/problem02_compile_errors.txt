@@ -1,0 +1,20 @@
+Compilation started at 10/31/2023, 11:57:13 AM
+c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set03\problem02.c: In function 'is_triangle':
+c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set03\problem02.c:26:11: warning: implicit declaration of function 'sqrt' [-Wimplicit-function-declaration]
+     side1=sqrt((x2-x1)*(x2-x1)+(y2-y1)*(y2-y1));
+           ^~~~
+c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set03\problem02.c:26:11: warning: incompatible implicit declaration of built-in function 'sqrt'
+c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set03\problem02.c:26:11: note: include '<math.h>' or provide a declaration of 'sqrt'
+Compilation finished at 10/31/2023, 11:57:13 AM
+Compilation started at 10/31/2023, 11:59:31 AM
+c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set03\problem02.c: In function 'is_triangle':
+c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set03\problem02.c:26:11: warning: implicit declaration of function 'sqrt' [-Wimplicit-function-declaration]
+     side1=sqrt((x2-x1)*(x2-x1)+(y2-y1)*(y2-y1));
+           ^~~~
+c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set03\problem02.c:26:11: warning: incompatible implicit declaration of built-in function 'sqrt'
+c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set03\problem02.c:26:11: note: include '<math.h>' or provide a declaration of 'sqrt'
+Compilation finished at 10/31/2023, 11:59:31 AM
+Compilation started at 10/31/2023, 11:59:56 AM
+Compilation finished at 10/31/2023, 11:59:56 AM
+Compilation started at 10/31/2023, 12:07:40 PM
+Compilation finished at 10/31/2023, 12:07:41 PM
