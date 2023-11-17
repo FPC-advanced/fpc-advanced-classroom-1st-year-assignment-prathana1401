@@ -1,0 +1,20 @@
+Compilation started at 11/17/2023, 8:51:54 AM
+c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set04\problem01.c: In function 'input':
+c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set04\problem01.c:15:5: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+     printf("enter the numerator and denominator of the first fraction:\n");
+     ^~~~~~
+c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set04\problem01.c:15:5: warning: incompatible implicit declaration of built-in function 'printf'
+c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set04\problem01.c:15:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set04\problem01.c:16:5: warning: implicit declaration of function 'scanf' [-Wimplicit-function-declaration]
+     scanf("%d %d",num1,den1);
+     ^~~~~
+c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set04\problem01.c:16:5: warning: incompatible implicit declaration of built-in function 'scanf'
+c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set04\problem01.c:16:5: note: include '<stdio.h>' or provide a declaration of 'scanf'
+c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set04\problem01.c: In function 'output':
+c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set04\problem01.c:27:5: warning: incompatible implicit declaration of built-in function 'printf'
+     printf("Sum of %d/%d and %d/%d is %d/%d\n", num1, den1, num2, den2, res_num, res_den);
+     ^~~~~~
+c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set04\problem01.c:27:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+Compilation finished at 11/17/2023, 8:51:55 AM
+Compilation started at 11/17/2023, 8:55:07 AM
+Compilation finished at 11/17/2023, 8:55:08 AM
