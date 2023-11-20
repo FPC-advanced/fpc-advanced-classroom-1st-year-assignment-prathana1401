@@ -1,0 +1,17 @@
++r
+Starting program: c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set01/./problem07.exe 
+[New Thread 12732.0xcbc]
+[New Thread 12732.0x17a4]
+[Inferior 1 (process 12732) exited normally]
++l
+1	//To find the sum of all numbers until n
+2	#include<stdio.h>
+3	int input_n();
+4	int sum_n_nos(int n);
+5	void output(int n, int sum);
+6	int main()
+7	{
+8	 int n , sum=0 , i=0;
+9	 n=input_n();
+10	 sum=sum_n_nos(n);
++q

@@ -1,0 +1,55 @@
++r
+Starting program: c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set01/./problem03.exe 
+[New Thread 8656.0x1ea8]
+[New Thread 8656.0x1ba4]
+[Inferior 1 (process 8656) exited normally]
++l
+1	//To add two numbers using pass by value
+2	#include<stdio.h>
+3	int input();
+4	int add(int a, int b);
+5	void output(int a, int b, int sum);
+6	int main()
+7	{
+8	    int a , b , sum=0;
+9	    a=input();
+10	    b=input();
++l
+11	    sum=add(a,b);
+12	    output(a,b,sum);
+13	    return 0;
+14	}
+15	int input()
+16	{
+17	    int x ; 
+18	    printf("Enter the number: \n");
+19	    scanf("%d",&x);
+20	    return x;
++l
+21	}
+22	int add(int a, int b)
+23	{
+24	    int sum=0 ;
+25	    sum = a+b;
+26	    return sum;
+27	    
+28	}
+29	void output(int a, int b, int sum)
+30	{
++l
+31	    printf("The sum of two numbers %d and %d is %d \n",a , b ,sum);
+32	}+l
+Line number 33 out of range; c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set01\problem03.c has 32 lines.
++cd "c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set01"
+"c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set01": Invalid argument.
++gdb ./problem04
+Undefined command: "gdb".  Try "help".
++c
+The program is not being run.
++set logging file problem04_debug.log
++set logging enabled on
+Undefined set logging command: "enabled on".  Try "help set logging".
++set logging on
+Already logging to problem03_debug.log.
++set trace-commands on
++q

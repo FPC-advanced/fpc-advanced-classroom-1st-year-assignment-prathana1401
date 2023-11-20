@@ -1,0 +1,24 @@
++r
+Starting program: c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set01/./problem06.exe 
+[New Thread 15956.0x2658]
+[New Thread 15956.0x23c4]
+[Inferior 1 (process 15956) exited normally]
++cd "c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set01"
+"c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set01": Invalid argument.
++gdb ./problem06
+Undefined command: "gdb".  Try "help".
++c
+The program is not being run.
++set logging file problem06_debug.log
++set logging enabled on
+Undefined set logging command: "enabled on".  Try "help set logging".
++set logging on
+Already logging to problem06_debug.log.
++set trace-commands on
++q
++r
+Starting program: c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set01/./problem06.exe 
+[New Thread 7572.0x24d0]
+[New Thread 7572.0x1a0c]
+[Inferior 1 (process 7572) exited normally]
++q

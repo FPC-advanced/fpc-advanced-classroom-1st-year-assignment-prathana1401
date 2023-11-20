@@ -1,0 +1,122 @@
++l
+1	//To add two numbers using pass by reference
+2	#include<stdio.h>
+3	void input(int *a, int *b);
+4	void add(int a, int b, int *sum);
+5	void output(int a, int b, int sum);
+6	int main()
+7	{
+8	 int a , b , sum=0;
+9	 input(&a,&b);
+10	 add(a,b,&sum);
++l
+11	 output(a,b,sum);
+12	 return 0 ;
+13	}
+14	void input(int *a, int *b)
+15	{
+16	    printf("Enter the first number: \n");
+17	    scanf("%d",a);
+18	    printf("Enter the second number: \n");
+19	    scanf("%d",b);
+20	}
++l
+21	void add(int a, int b, int *sum)
+22	{
+23	    *sum=a+b;
+24	}
+25	void output(int a, int b, int sum)
+26	{
+27	    printf("The sum of %d and %d is %d",a,b,sum);
+28	}+l
+Line number 29 out of range; c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set01\problem04.c has 28 lines.
++cd "c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set01"
+"c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set01": Invalid argument.
++gcc -g "c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set01\problem01.c" -o "c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set01\problem01.exe" 2>&1
+Undefined command: "gcc".  Try "help".
++"c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set01\problem01.exe"
+Undefined command: "".  Try "help".
++cd "c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set01"
+"c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set01": Invalid argument.
++gdb ./problem01
+Undefined command: "gdb".  Try "help".
++c
+The program is not being run.
++set logging file problem01_debug.log
++set logging enabled on
+Undefined set logging command: "enabled on".  Try "help set logging".
++set logging on
+Already logging to problem04_debug.log.
++set trace-commands on
++l
+Line number 29 out of range; c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set01\problem04.c has 28 lines.
++cd "c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set01"
+"c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set01": Invalid argument.
++gcc -g "c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set01\problem01.c" -o "c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set01\problem01.exe" 2>&1
+Undefined command: "gcc".  Try "help".
++"c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set01\problem01.exe"
+Undefined command: "".  Try "help".
++cd "c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set01"
+"c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set01": Invalid argument.
++gcc -g "c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set01\problem02.c" -o "c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set01\problem02.exe" 2>&1
+Undefined command: "gcc".  Try "help".
++"c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set01\problem02.exe"
+Undefined command: "".  Try "help".
++cd "c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set01"
+"c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set01": Invalid argument.
++gcc -g "c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set01\problem02.c" -o "c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set01\problem02.exe" 2>&1
+Undefined command: "gcc".  Try "help".
++"c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set01\problem02.exe"
+Undefined command: "".  Try "help".
++cd "c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set01"
+"c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set01": Invalid argument.
++gdb ./problem02
+Undefined command: "gdb".  Try "help".
++c
+The program is not being run.
++set logging file problem02_debug.log
++set logging enabled on
+Undefined set logging command: "enabled on".  Try "help set logging".
++set logging on
+Already logging to problem04_debug.log.
++set trace-commands on
++r
+Starting program: c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set01/./problem04.exe 
+[New Thread 14720.0x13e0]
+[New Thread 14720.0xef8]
+[Inferior 1 (process 14720) exited normally]
++l
+Line number 29 out of range; c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set01\problem04.c has 28 lines.
++l
+Line number 29 out of range; c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set01\problem04.c has 28 lines.
++cd
+: Invalid argument.
++q
++r
+Starting program: c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set01/./problem04.exe 
+[New Thread 2156.0x3070]
+[New Thread 2156.0x372c]
+[Inferior 1 (process 2156) exited normally]
++l
+1	//To add two numbers using pass by reference
+2	#include<stdio.h>
+3	void input(int *a, int *b);
+4	void add(int a, int b, int *sum);
+5	void output(int a, int b, int sum);
+6	int main()
+7	{
+8	 int a , b , sum=0;
+9	 input(&a,&b);
+10	 add(a,b,&sum);
++l
+11	 output(a,b,sum);
+12	 return 0 ;
+13	}
+14	void input(int *a, int *b)
+15	{
+16	    printf("Enter the first number: \n");
+17	    scanf("%d",a);
+18	    printf("Enter the second number: \n");
+19	    scanf("%d",b);
+20	}
++q

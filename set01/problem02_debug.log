@@ -1,0 +1,22 @@
++r
+Starting program: c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set01/./problem02.exe 
+[New Thread 7264.0x393c]
+[New Thread 7264.0x68c]
+[Inferior 1 (process 7264) exited normally]
++l
+1	//2. Write a C program to add two numbers.
+2	#include<stdio.h>
+3	int main()
+4	{
+5	    int num1=8 , num2=9 , sum=0 ;
+6	    sum = num1+num2;
+7	    printf("The sum of two numbers is %d",sum);
+8	    return 0 ;
+9	}
++cd "c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set01"
+"c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set01": Invalid argument.
++gcc -g "c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set01\problem03.c" -o "c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set01\problem03.exe" 2>&1
+Undefined command: "gcc".  Try "help".
++"c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set01\problem03.exe"
+Undefined command: "".  Try "help".
++q
