@@ -5,12 +5,13 @@ typedef struct {
 } Fraction;
 void input(Fraction *frac1, Fraction *frac2, Fraction *frac3);
 Fraction find_smallest(Fraction frac1, Fraction frac2, Fraction frac3);
-void output(Fraction smallest);
+void output(Fraction frac1, Fraction frac2, Fraction frac3,Fraction smallest);
 int main()
 {
 Fraction frac1,frac2,frac3;
 input(&frac1,&frac2,&frac3);
-output(smallest);
+Fraction smallest=find_smallest(frac1,frac2,frac3);
+output(frac1,frac2,frac3,smallest);
 return 0;
 }
 void input(Fraction *frac1, Fraction *frac2, Fraction *frac3)
@@ -31,7 +32,7 @@ Fraction find_smallest(Fraction frac1, Fraction frac2, Fraction frac3)
         smallest = frac3;
     return smallest;
 }
-void output(Fraction smallest) {
+void output(Fraction frac1, Fraction frac2, Fraction frac3,Fraction smallest) {
     printf("The smallest of %d/%d, %d/%d, and %d/%d is %d/%d\n", frac1.num, frac1.den, frac2.num, frac2.den, frac3.num, frac3.den,
            smallest.num, smallest.den);
 }

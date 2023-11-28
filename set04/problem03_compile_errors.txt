@@ -1,0 +1,17 @@
+Compilation started at 11/28/2023, 9:40:35 PM
+c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set04\problem03.c: In function 'main':
+c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set04\problem03.c:9:15: warning: passing argument 1 of 'input_n_and_r' makes pointer from integer without a cast [-Wint-conversion]
+ input_n_and_r(n,r);
+               ^
+c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set04\problem03.c:3:6: note: expected 'int *' but argument is of type 'int'
+ void input_n_and_r(int *n, int *r);
+      ^~~~~~~~~~~~~
+c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set04\problem03.c:9:17: warning: passing argument 2 of 'input_n_and_r' makes pointer from integer without a cast [-Wint-conversion]
+ input_n_and_r(n,r);
+                 ^
+c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set04\problem03.c:3:6: note: expected 'int *' but argument is of type 'int'
+ void input_n_and_r(int *n, int *r);
+      ^~~~~~~~~~~~~
+Compilation finished at 11/28/2023, 9:40:35 PM
+Compilation started at 11/28/2023, 9:41:07 PM
+Compilation finished at 11/28/2023, 9:41:07 PM
