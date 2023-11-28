@@ -8,7 +8,10 @@ Fraction find_smallest(Fraction frac1, Fraction frac2, Fraction frac3);
 void output(Fraction smallest);
 int main()
 {
-
+Fraction frac1,frac2,frac3;
+input(&frac1,&frac2,&frac3);
+output(smallest);
+return 0;
 }
 void input(Fraction *frac1, Fraction *frac2, Fraction *frac3)
 {
