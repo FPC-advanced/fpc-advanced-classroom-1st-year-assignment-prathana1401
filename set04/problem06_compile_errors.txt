@@ -1,0 +1,92 @@
+Compilation started at 12/1/2023, 10:02:54 PM
+c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set04\problem06.c: In function 'main':
+c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set04\problem06.c:8:5: error: called object 'input_string' is not a function or function pointer
+     input_string(input_string);
+     ^~~~~~~~~~~~
+c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set04\problem06.c:7:10: note: declared here
+     char input_string[100];
+          ^~~~~~~~~~~~
+Compilation finished at 12/1/2023, 10:02:55 PM
+Compilation started at 12/2/2023, 11:33:11 AM
+c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set04\problem06.c: In function 'main':
+c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set04\problem06.c:10:18: warning: passing argument 1 of 'input_string' from incompatible pointer type [-Wincompatible-pointer-types]
+     input_string(input_string);
+                  ^~~~~~~~~~~~
+c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set04\problem06.c:4:6: note: expected 'char *' but argument is of type 'void (*)(char *)'
+ void input_string(char *a);
+      ^~~~~~~~~~~~
+c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set04\problem06.c:11:32: warning: passing argument 1 of 'count_words' from incompatible pointer type [-Wincompatible-pointer-types]
+     int no_words = count_words(input_string);
+                                ^~~~~~~~~~~~
+c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set04\problem06.c:5:5: note: expected 'char *' but argument is of type 'void (*)(char *)'
+ int count_words(char *string);
+     ^~~~~~~~~~~
+c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set04\problem06.c:12:12: warning: passing argument 1 of 'output' from incompatible pointer type [-Wincompatible-pointer-types]
+     output(input_string, no_words);
+            ^~~~~~~~~~~~
+c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set04\problem06.c:6:6: note: expected 'char *' but argument is of type 'void (*)(char *)'
+ void output(char *string, int no_words);
+      ^~~~~~
+Compilation finished at 12/2/2023, 11:33:12 AM
+Compilation started at 12/2/2023, 11:35:56 AM
+c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set04\problem06.c: In function 'main':
+c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set04\problem06.c:12:12: warning: passing argument 1 of 'output' from incompatible pointer type [-Wincompatible-pointer-types]
+     output(input_string, no_words);
+            ^~~~~~~~~~~~
+c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set04\problem06.c:6:6: note: expected 'char *' but argument is of type 'void (*)(char *)'
+ void output(char *string, int no_words);
+      ^~~~~~
+Compilation finished at 12/2/2023, 11:35:56 AM
+Compilation started at 12/2/2023, 11:36:30 AM
+c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set04\problem06.c: In function 'main':
+c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set04\problem06.c:12:12: warning: passing argument 1 of 'output' from incompatible pointer type [-Wincompatible-pointer-types]
+     output(input_string, no_words);
+            ^~~~~~~~~~~~
+c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set04\problem06.c:6:6: note: expected 'char *' but argument is of type 'void (*)(char *)'
+ void output(char *string, int no_words);
+      ^~~~~~
+Compilation finished at 12/2/2023, 11:36:30 AM
+Compilation started at 12/2/2023, 11:40:20 AM
+c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set04\problem06.c: In function 'main':
+c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set04\problem06.c:12:17: warning: passing argument 1 of 'count_words' from incompatible pointer type [-Wincompatible-pointer-types]
+     count_words(&no_words);
+                 ^
+c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set04\problem06.c:5:5: note: expected 'char *' but argument is of type 'int *'
+ int count_words(char *string);
+     ^~~~~~~~~~~
+c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set04\problem06.c:13:12: warning: passing argument 1 of 'output' from incompatible pointer type [-Wincompatible-pointer-types]
+     output(input_string, &no_words);
+            ^~~~~~~~~~~~
+c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set04\problem06.c:6:6: note: expected 'char *' but argument is of type 'void (*)(char *)'
+ void output(char *string, int no_words);
+      ^~~~~~
+c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set04\problem06.c:13:26: warning: passing argument 2 of 'output' makes integer from pointer without a cast [-Wint-conversion]
+     output(input_string, &no_words);
+                          ^
+c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set04\problem06.c:6:6: note: expected 'int' but argument is of type 'int *'
+ void output(char *string, int no_words);
+      ^~~~~~
+c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set04\problem06.c: In function 'output':
+c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set04\problem06.c:36:57: error: invalid type argument of unary '*' (have 'int')
+     printf("The number of words in %s is %d\n", string, *no_words);
+                                                         ^~~~~~~~~
+Compilation finished at 12/2/2023, 11:40:20 AM
+Compilation started at 12/2/2023, 11:41:34 AM
+c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set04\problem06.c: In function 'main':
+c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set04\problem06.c:12:17: warning: passing argument 1 of 'count_words' from incompatible pointer type [-Wincompatible-pointer-types]
+     count_words(&no_words);
+                 ^
+c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set04\problem06.c:5:5: note: expected 'char *' but argument is of type 'int *'
+ int count_words(char *string);
+     ^~~~~~~~~~~
+c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set04\problem06.c:13:12: warning: passing argument 1 of 'output' from incompatible pointer type [-Wincompatible-pointer-types]
+     output(input_string, &no_words);
+            ^~~~~~~~~~~~
+c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set04\problem06.c:6:6: note: expected 'char *' but argument is of type 'void (*)(char *)'
+ void output(char *string, int *no_words);
+      ^~~~~~
+Compilation finished at 12/2/2023, 11:41:34 AM
+Compilation started at 12/2/2023, 11:44:46 AM
+Compilation finished at 12/2/2023, 11:44:46 AM
+Compilation started at 12/2/2023, 11:47:50 AM
+Compilation finished at 12/2/2023, 11:47:51 AM

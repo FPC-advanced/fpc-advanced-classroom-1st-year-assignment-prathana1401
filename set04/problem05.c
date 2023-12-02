@@ -34,7 +34,7 @@ int find_largest_index(int n, int a[n])
     int index=0;
     for(int i=1;i<n;i++)
     {
-        if(a[i]>index)
+        if(a[i]>a[index])
         {
             index=i;
         }
