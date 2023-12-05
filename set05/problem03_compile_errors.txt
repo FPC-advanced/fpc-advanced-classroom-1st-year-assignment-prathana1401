@@ -1,0 +1,47 @@
+Compilation started at 12/2/2023, 2:18:03 PM
+c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set05\problem03.c: In function 'main':
+c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set05\problem03.c:13:17: error: incompatible type for argument 1 of 'find_weight'
+     find_weight(&c);
+                 ^
+c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set05\problem03.c:8:7: note: expected 'Camel {aka struct camel}' but argument is of type 'Camel * {aka struct camel *}'
+ float find_weight(Camel c);
+       ^~~~~~~~~~~
+c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set05\problem03.c: In function 'find_weight':
+c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set05\problem03.c:27:15: warning: implicit declaration of function 'pow' [-Wimplicit-function-declaration]
+     return pi*pow(c.radius,3)*sqrt(c.height*c.length);
+               ^~~
+c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set05\problem03.c:27:15: warning: incompatible implicit declaration of built-in function 'pow'
+c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set05\problem03.c:27:15: note: include '<math.h>' or provide a declaration of 'pow'
+c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set05\problem03.c:27:31: warning: implicit declaration of function 'sqrt' [-Wimplicit-function-declaration]
+     return pi*pow(c.radius,3)*sqrt(c.height*c.length);
+                               ^~~~
+c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set05\problem03.c:27:31: warning: incompatible implicit declaration of built-in function 'sqrt'
+c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set05\problem03.c:27:31: note: include '<math.h>' or provide a declaration of 'sqrt'
+c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set05\problem03.c: In function 'output':
+c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set05\problem03.c:31:120: error: 'p' undeclared (first use in this function)
+     printf("The weight of the camel with radius: %f,height: %f,length:%f is %f\n",c.radius,c.height,c.length,c.weight);p
+                                                                                                                        ^
+c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set05\problem03.c:31:120: note: each undeclared identifier is reported only once for each function it appears in
+c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set05\problem03.c:32:1: error: expected ';' before '}' token
+ }
+ ^
+Compilation finished at 12/2/2023, 2:18:03 PM
+Compilation started at 12/2/2023, 2:18:25 PM
+c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set05\problem03.c: In function 'find_weight':
+c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set05\problem03.c:27:15: warning: implicit declaration of function 'pow' [-Wimplicit-function-declaration]
+     return pi*pow(c.radius,3)*sqrt(c.height*c.length);
+               ^~~
+c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set05\problem03.c:27:15: warning: incompatible implicit declaration of built-in function 'pow'
+c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set05\problem03.c:27:15: note: include '<math.h>' or provide a declaration of 'pow'
+c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set05\problem03.c:27:31: warning: implicit declaration of function 'sqrt' [-Wimplicit-function-declaration]
+     return pi*pow(c.radius,3)*sqrt(c.height*c.length);
+                               ^~~~
+c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set05\problem03.c:27:31: warning: incompatible implicit declaration of built-in function 'sqrt'
+c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set05\problem03.c:27:31: note: include '<math.h>' or provide a declaration of 'sqrt'
+Compilation finished at 12/2/2023, 2:18:25 PM
+Compilation started at 12/2/2023, 2:18:45 PM
+Compilation finished at 12/2/2023, 2:18:45 PM
+Compilation started at 12/2/2023, 2:32:35 PM
+Compilation finished at 12/2/2023, 2:32:35 PM
+Compilation started at 12/2/2023, 2:41:29 PM
+Compilation finished at 12/2/2023, 2:41:30 PM

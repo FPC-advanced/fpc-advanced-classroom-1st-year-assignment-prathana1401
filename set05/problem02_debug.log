@@ -1,0 +1,7 @@
++cd "c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set05"
+"c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set05": Invalid argument.
++gcc -g "c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set05\problem03.c" -o "c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set05\problem03.exe" 2>&1
+Undefined command: "gcc".  Try "help".
++"c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set05\problem03.exe"
+Undefined command: "".  Try "help".
++q
