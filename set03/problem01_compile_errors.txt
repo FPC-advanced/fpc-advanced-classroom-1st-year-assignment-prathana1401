@@ -60,3 +60,11 @@ c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set03
 c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set03\problem01.c:24:10: warning: incompatible implicit declaration of built-in function 'sqrt'
 c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set03\problem01.c:24:10: note: include '<math.h>' or provide a declaration of 'sqrt'
 Compilation finished at 11/26/2023, 12:00:40 PM
+Compilation started at 11/26/2023, 12:31:25 PM
+c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set03\problem01.c: In function 'find_distance':
+c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set03\problem01.c:24:10: warning: implicit declaration of function 'sqrt' [-Wimplicit-function-declaration]
+   return sqrt((x2-x1)*(x2-x1)+(y2-y1)*(y2-y1));
+          ^~~~
+c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set03\problem01.c:24:10: warning: incompatible implicit declaration of built-in function 'sqrt'
+c:\FPC_Assignments\fpc-advanced-classroom-1st-year-assignment-prathana1401\set03\problem01.c:24:10: note: include '<math.h>' or provide a declaration of 'sqrt'
+Compilation finished at 11/26/2023, 12:31:26 PM
